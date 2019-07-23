@@ -3,7 +3,7 @@
 ****
 [Here's a feature overview in video form](https://www.youtube.com), you probably want to watch this at 1.5x speed
 ****
-I wanted to make another badge, and Tor mentioned they will have a vendor booth this year. I took all the monitary risk, but these turned out pretty well. I'm giving these to Tor to sell as a fund raiser so hopefully I'll break even. This doesn't count the many hours planning, designing, coding, and crimping 500+ JST battery holders. I spent more time on the presentation this time (custom dye sub lanyards, custom boxes, sticker, etc).
+I wanted to make another badge, and Tor mentioned they will have a vendor booth this year. I took all the monetary risk, but these turned out pretty well. I'm giving these to Tor to sell as a fund raiser so hopefully I'll break even. This doesn't count the many hours planning, designing, coding, and crimping 500+ JST battery holders. I spent more time on the presentation this time (custom dye sub lanyards, custom boxes, sticker, etc).
 
 ## In the box
 * Tor badge
@@ -19,7 +19,7 @@ This Tor board supports the new [1.69bis “shitty add-on”](https://hackaday.c
 
 Alternatively, if you don’t have a main badge to plug this Tor board into for power, a battery holder and two CR123a batteries are provided so you can power this Tor board independently. Just stick the battery holder to the back of the Tor board, this was not done for you because it would prevent you from using the SAO header. 
 
-**Do NOT** attempt to power the Tor board from both the provided battery and a “main” badge through the SAO header simultaneously. The green zip ties can be used as a "leash" while using this as a SAO (so it won't fall off and get lost). Alternativly you could trim them and use them artistically as green leaves on the top of the board. 
+**Do NOT** attempt to power the Tor board from both the provided battery and a “main” badge through the SAO header simultaneously. The green zip ties can be used as a "leash" while using this as a SAO (so it won't fall off and get lost). Alternatively you could trim them and use them artistically as green leaves on the top of the board. 
 
 ### Basic Functionality
 On power up the Tor SAO enters the last LED blinking mode. Pressing the button will cycle to the next LED blinking mode. 
@@ -68,9 +68,9 @@ If the button he held while the board is powered up, and released under ~15 seco
 When the board is powered up the last mode and unlocks are read from eeprom. If for some reason your board is in a weird state after these values are read you can reset the eeprom values by pressing and holding the button while the board is powered up. Continue holding the button for at least 15 seconds until LEDs 2 and 4 are lit, then release the button. Your board should now act as if it was powered up for the first time. All unlocks will be lost. 
 
 ### Review of Seeed Studio
-Last time I made boards I used a no-name middleman in India. Since this board required 3 colors I knew I'd need a more professional manufacturer, and I knew that seeedstudio [was offering](https://www.seeedstudio.com/blog/2019/02/01/calling-all-badge-enthusiasts-gather-for-seeeds-badge-sponsorship-2019/) discounts for badge makers. I applied for the 8% discount level which requires an honest review of my experiance, so here it is. 
+Last time I made boards I used a no-name middleman in India. Since this board required 3 colors I knew I'd need a more professional manufacturer, and I knew that seeedstudio [was offering](https://www.seeedstudio.com/blog/2019/02/01/calling-all-badge-enthusiasts-gather-for-seeeds-badge-sponsorship-2019/) discounts for badge makers. I applied for the 8% discount level which requires an honest review of my experience, so here it is. 
 
-I actually tried to use two different fabs prior to seeed studio and they both told me that they couldn't do 3 colors on the board. To set some expectations, I'm also very inexperianced with board design. I can design a circuit and write the code, but like last time I had help with the board design files (this makes me more difficult to deal with). 
+I actually tried to use two different fabs prior to seeed studio and they both told me that they couldn't do 3 colors on the board. To set some expectations, I'm also very inexperienced with board design. I can design a circuit and write the code, but like last time I had help with the board design files (this makes me more difficult to deal with). 
 
 Applying for the coupon was super easy and it was credited to my account within a day. And creating the order was easy using their online tool. It was nice to be able to see the live quote as I changed options, but their BOM tool quoted a few of my parts more expensive than they should be. And there wasn't an option for the 3 colors that I needed on my boards. It seemed like to make any progress I needed to put in an order first, then I would be contacted by a factory representative to help actually get the thing made. 
 
