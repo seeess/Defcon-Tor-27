@@ -88,22 +88,15 @@ I asked for a picture of the boards before assembly, since that is so expensive 
 
 The most important part is the boards look really good considering what they had to work with, and everything was populated correctly. 
 
-Final Score of Seeed 6/7
+**Final Score of Seeed 6/7**
 
--BOM pricing using their tool was expensive (they made some corrections when I asked)
-
--Having to place an order, get it partially refunded, then place a second order
-
--Not being able to ship me the extra parts I was required to order
-
--QR codes didn't work (I think the silkscreen pooled up or something)
-
-+Board produced looks good and worked (considering I didn't have time to order a sample run)
-
-+They could deal with my board files that I couldn't easily clean up for them
-
-+Communication was good, and they dealt with me asking for things like pictures
-
+-BOM pricing using their tool was expensive (they made some corrections when I asked)  
+-Having to place an order, get it partially refunded, then place a second order  
+-Not being able to ship me the extra parts I was required to order  
+-QR codes didn't work (I think the silkscreen pooled up or something)  
++Board produced looks good and worked (considering I didn't have time to order a sample run)  
++They could deal with my board files that I couldn't easily clean up for them  
++Communication was good, and they dealt with me asking for things like pictures  
 +They were able to switch parts out very late in the process
 
 ### Bill of Materials
