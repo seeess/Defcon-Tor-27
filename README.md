@@ -12,7 +12,6 @@ I wanted to make another badge, and Tor mentioned they will have a vendor booth 
 * Battery holder
 * Sticker
 * Zip ties
-* Manual
 
 ### Powering the Tor SAO
 This Tor board supports the new [1.69bis “shitty add-on”](https://hackaday.com/2019/03/20/introducing-the-shitty-add-on-v1-69bis-standard/) (SAO) standard, there is one 2x3 male pin header that you can connect to a main badge that supports the SAO standard for power. You can also power this board from older badges that use the 2x2 pin SAO standard. When using the older 2x2 standard verify the correct pins are connected. This board only utilizes the “3v3” and “gnd” pins of the SAO standard (other pins on the SAO header are not connected).
