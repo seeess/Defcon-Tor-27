@@ -98,6 +98,8 @@ The most important part is the boards look really good considering what they had
 +Communication was good, and they dealt with me asking for things like pictures  
 +They were able to switch parts out very late in the process
 
+For more information on Seeed Studio see https://www.seeedstudio.com/prototype-pcb-assembly.html
+
 ### Bill of Materials
 In case something snapped off of your board, or you want to populate a bare board.
 
