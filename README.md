@@ -63,7 +63,7 @@ The last blinking mode you were using is stored and recovered on power up, along
 ### Troubleshooting and Recovery
 A simple reboot should solve most issues by disconnecting and reconnecting power. Be gentle with the white JST power connector if you power the board from the provided battery holder. The JST connector should be disconnected by pulling on the connector itself, and not the wires. It is also recommended that you hold onto the board-side JST connector while connecting or disconnecting the battery holder.
 
-If the button he held while the board is powered up, and released under ~15 seconds, all LEDs will be lit and eeprom reading and writing will be disabled until the next power up. This can be used as a last resort if you have eeprom problems.
+If the button is held while the board is powered up, and released under ~15 seconds, all LEDs will be lit and eeprom reading and writing will be disabled until the next power up. This can be used as a last resort if you have eeprom problems.
 
 When the board is powered up the last mode and unlocks are read from eeprom. If for some reason your board is in a weird state after these values are read you can reset the eeprom values by pressing and holding the button while the board is powered up. Continue holding the button for at least 15 seconds until LEDs 2 and 4 are lit, then release the button. Your board should now act as if it was powered up for the first time. All unlocks will be lost. 
 
