@@ -69,33 +69,33 @@ When the board is powered up the last mode and unlocks are read from eeprom. If 
 ### Review of Seeed Studio
 Last time I made boards I used a no-name middleman in India. Since this board required 3 colors I knew I'd need a more professional manufacturer, and I knew that seeedstudio [was offering](https://www.seeedstudio.com/blog/2019/02/01/calling-all-badge-enthusiasts-gather-for-seeeds-badge-sponsorship-2019/) discounts for badge makers. I applied for the 8% discount level which requires an honest review of my experience, so here it is. 
 
-I actually tried to use two different fabs prior to seeed studio and they both told me that they couldn't do 3 colors on the board. To set some expectations, I'm also very inexperienced with board design. I can design a circuit and write the code, but like last time I had help with the board design files (this makes me more difficult to deal with). 
+I actually tried to use two different fabs prior to seeed studio and they both told me that they couldn't do 3 colors on the board. To set some expectations, I'm also very inexperienced with board design. I can design a circuit and write the code, but like last time I had help with the board design files (I know this makes me more difficult to deal with). 
 
 Applying for the coupon was super easy and it was credited to my account within a day. And creating the order was easy using their online tool. It was nice to be able to see the live quote as I changed options, but their BOM tool quoted a few of my parts more expensively than they should be. And there wasn't an option for the 3 colors that I needed on my boards. It seemed like to make any progress I needed to put in an order first, then I would be contacted by a factory representative to help actually get the thing made. 
 
 There was some questions back and forth relating to the board files (nearly all my fault). I was initially expecting that the three colors would be done by using 1 solder mask + 2 silk screen layers, primarily because I didn't expect them to have that color of purple in a solder mask. They told me they can't do 2 silk screens + 1 solder mask, but they can do the opposite, which is fine by me. 
 
-I initially was planning on making a smaller test order, followed by the larger bulk order. However after I placed the first smaller order they informed me that a small run of badges would cost an additional $500 more than what I already paid for using their online order page. By this time the questions ate a week or two so I decided I'd rather risk it all and make the bulk order and skip the smaller trial run. 
+I initially was planning on making a smaller test order, followed by the larger bulk order. However after I placed the first smaller order they informed me that a small run of badges would cost an additional $500 more than what I already paid for using their online order page. By this time the questions ate a few weeks so I decided I'd rather risk it all and make the bulk order and skip the smaller trial run. 
 
 To change the quantity they suggested I create a new order. And they told me that BOM component costs could not be refunded, so I ended up wasting some money here and it doesn't seem like there was anything I could do to prevent this since I couldn't get an accurate quote ahead of time. Because the BOM didn't change it seems like they could at least use these parts as "waste" parts in the bulk order. They also weren't able to just send me these parts because their finance department won't let them (they need a distributor license or something). 
 
 On the positive side, this time they were able to give me an accurate quote for how much my bulk order would cost. I just had to add some extra $1 dummy items to get my order up to the price they quoted me. And I had to request a new coupon code, which again went smoothly. 
 
-Here's where seeed shined. I totally screwed up big time and got the gender of the SAO header wrong. I had both the male and female headers in my personally tracked BOM initially, and there was so much talk about the female keyed headers and how hard they were to find. Plus all my focus went into making sure the pins were mirrored correctly, since I knew many people have got this wrong in the past. I looked up the right part and it was slightly cheaper, and a week into the order they shouldn't be populating the boards anyway, but since I already knew they couldn't send me spare parts I was worried I just threw away some more money. But within a few hours they confirmed that they could swap the part for me.
+Here's where seeed shined. I totally screwed up big time and got the gender of the SAO header wrong. I had both the male and female headers in my personally tracked BOM initially, and there was so much talk in badgelife about the female keyed headers and how hard they were to find. Plus all my focus went into making sure the pins were mirrored correctly, since I knew many people have got this wrong in the past. I looked up the right part and it was slightly cheaper, and a week into the order they shouldn't be populating the boards anyway, but since I already knew they couldn't send me spare parts I was worried I just threw away some more money. But within a few hours Carmen confirmed that they could swap the part for me.
 
-I asked for a picture of the boards before assembly, since that is so expensive and I wanted to make sure they looked right. The factory rep that was helping me was able to do this for me and he even seemed a little excited about these boards. A few more weeks went by without much of an update, then suddenly everything was done and I had the tracking number. 
+I asked for a picture of the boards before assembly, since that part of the process is so expensive and I wanted to make sure they looked right. Carmen was helping me throughout this process and she was able to do this for me and she even seemed a little excited about these boards. A few more weeks went by without much of an update, then suddenly everything was done and I had the tracking number. 
 
 The most important part is the boards look really good considering what they had to work with, and everything was populated correctly. 
 
 **Final Score of Seeed 6/7**
 
--BOM pricing using their tool was expensive (they made some corrections when I asked)  
+-BOM pricing using their tool was expensive (but they made some corrections when I asked)  
 -Having to place an order, get it partially refunded, then place a second order  
 -Not being able to ship me the extra parts I was required to order  
 -QR codes didn't work (I think the silkscreen pooled up or something)  
 +Board produced looks good and worked (considering I didn't have time to order a sample run)  
 +They could deal with my board files that I couldn't easily clean up for them  
-+Communication was good, and they dealt with me asking for things like pictures  
++Communication was good from Carmen, and she dealt with me asking for extra things like pictures  
 +They were able to switch parts out very late in the process
 
 For more information on Seeed Studio see https://www.seeedstudio.com/prototype-pcb-assembly.html
