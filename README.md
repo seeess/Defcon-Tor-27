@@ -1,7 +1,7 @@
 # Defcon 27 Tor Badge / SAO Manual
 ![badge image](https://i.imgur.com/BjB4c4tl.jpg "front and back")
 ****
-[Here's a feature overview in video form](https://www.youtube.com), you probably want to watch this at 1.5x speed
+[TBD Here's a feature overview in video form TBD](https://www.youtube.com), you probably want to watch this at 1.5x speed
 ****
 I wanted to make another badge, and Tor mentioned they will have a vendor booth this year. I took all the monetary risk, but these turned out pretty well. I'm giving these to Tor to sell as a fund raiser so hopefully I'll break even. This doesn't count the many hours planning, designing, coding, and crimping 500+ JST battery holders. I spent more time on the presentation this time (custom 3 color board, custom dye sub lanyards, custom boxes, sticker, etc).
 
