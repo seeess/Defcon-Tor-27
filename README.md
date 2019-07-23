@@ -41,7 +41,7 @@ Having only 1 button and 5 LEDs is pretty limiting, but there’s two simple gam
 
 ##### Reaction Game
 1. To enter this game press and hold the button for a few seconds. The top and bottom LEDs will start alternatively blinking quickly.
-2. After releasing the button there is a random amount of time where all LEDs will be off. Pressing the LED during this timeframe will result in you losing the game and the previous LED blinking mode will restart.
+2. After releasing the button there is a random amount of time where all LEDs will be off. Pressing the LED during this timeframe will result in you losing the game indicated by the top two and bottom two LEDs alternatively blinking. The previous LED blinking mode will restart.
 3. When you see the LEDs begin to light up, press the button as quickly as possible. The LEDs will quickly count in binary until the button is pressed. The lower score the better. If you do not press a button quickly enough all of the LEDs will light up, and the previous LED blinking mode will restart
 4. If you pressed the button at the correct time a score is shown until you press the button again. At which point the Tor badge will go back to the previous LED blinking mode. 
 
