@@ -5,7 +5,7 @@
 ****
 I wanted to make another badge, and Tor mentioned they will have a vendor booth this year. I took all the monitary risk, but these turned out pretty well. I'm giving these to Tor to sell as a fund raiser so hopefully I'll break even. This doesn't count the many hours planning, designing, coding, and crimping 500+ JST battery holders. I spent more time on the presentation this time (custom dye sub lanyards, custom boxes, sticker, etc).
 
-##In the box
+## In the box
 * Tor badge
 * Lanyard
 * Two CR123a non-rechargeable batteries 
@@ -14,14 +14,14 @@ I wanted to make another badge, and Tor mentioned they will have a vendor booth 
 * Zip ties
 * Manual
 
-###Powering the Tor SAO
+### Powering the Tor SAO
 This Tor board supports the new [1.69bis “shitty add-on”](https://hackaday.com/2019/03/20/introducing-the-shitty-add-on-v1-69bis-standard/) (SAO) standard, there is one 2x3 male pin header that you can connect to a main badge that supports the SAO standard for power. You can also power this board from older badges that use the 2x2 pin SAO standard. When using the older 2x2 standard verify the correct pins are connected. This board only utilizes the “3v3” and “gnd” pins of the SAO standard (other pins on the SAO header are not connected).
 
 Alternatively, if you don’t have a main badge to plug this Tor board into for power, a battery holder and two CR123a batteries are provided so you can power this Tor board independently. Just stick the battery holder to the back of the Tor board, this was not done for you because it would prevent you from using the SAO header. 
 
 **Do NOT** attempt to power the Tor board from both the provided battery and a “main” badge through the SAO header simultaneously. The green zip ties can be used as a "leash" while using this as a SAO (so it won't fall off and get lost). Alternativly you could trim them and use them artistically as green leaves on the top of the board. 
 
-###Basic Functionality
+### Basic Functionality
 On power up the Tor SAO enters the last LED blinking mode. Pressing the button will cycle to the next LED blinking mode. 
  
 1.	Very slow LED cycle (one LED at a time in order top to bottom)
@@ -36,38 +36,38 @@ On power up the Tor SAO enters the last LED blinking mode. Pressing the button w
 10.	Binary counter
 11.	LEDs off
 
-###Games
+### Games
 Having only 1 button and 5 LEDs is pretty limiting, but there’s two simple games you can play
 
-#####Reaction Game
+##### Reaction Game
 1. To enter this game press and hold the button for a few seconds. The top and bottom LEDs will start alternatively blinking quickly.
 2. After releasing the button there is a random amount of time where all LEDs will be off. Pressing the LED during this timeframe will result in you losing the game and the previous LED blinking mode will restart.
 3. When you see the LEDs begin to light up, press the button as quickly as possible. The LEDs will quickly count in binary until the button is pressed. The lower score the better. If you do not press a button quickly enough all of the LEDs will light up, and the previous LED blinking mode will restart
 4. If you pressed the button at the correct time a score is shown until you press the button again. At which point the Tor badge will go back to the previous LED blinking mode. 
 
-#####Button Mashing Game
+##### Button Mashing Game
 1. Pressing the button around 10 times quickly will enter the button mashing game
 2. Continue to press and release the button as quickly possible. The faster the button is pressed the more LEDs will be lit up, and the brighter they will be.
 3. To win, completely fill all LEDs until all LEDs flash. Or to quit the game stop pressing the button.
 
-###Unlocks
+### Unlocks
 If you score five or less on the reaction game you will unlock a new “even/odd” LED blinking mode.
 
 If you beat the button mashing game you will unlock a new “heartbeat” LED blinking mode.
 
 Once unlocked these new modes will available after mode 11 "LEDs off"
 
-###EEPROM Storage
+### EEPROM Storage
 The last blinking mode you were using is stored and recovered on power up, along with any unlocks you already earned.
 
-###Troubleshooting and Recovery
+### Troubleshooting and Recovery
 A simple reboot should solve most issues by disconnecting and reconnecting power. Be gentle with the white JST power connector if you power the board from the provided battery holder. The JST connector should be disconnected by pulling on the connector itself, and not the wires. It is also recommended that you hold onto the board-side JST connector while connecting or disconnecting the battery holder.
 
 If the button he held while the board is powered up, and released under ~15 seconds, all LEDs will be lit and eeprom reading and writing will be disabled until the next power up. This can be used as a last resort if you have eeprom problems.
 
 When the board is powered up the last mode and unlocks are read from eeprom. If for some reason your board is in a weird state after these values are read you can reset the eeprom values by pressing and holding the button while the board is powered up. Continue holding the button for at least 15 seconds until LEDs 2 and 4 are lit, then release the button. Your board should now act as if it was powered up for the first time. All unlocks will be lost. 
 
-###Review of Seeed Studio
+### Review of Seeed Studio
 Last time I made boards I used a no-name middleman in India. Since this board required 3 colors I knew I'd need a more professional manufacturer, and I knew that seeedstudio [was offering](https://www.seeedstudio.com/blog/2019/02/01/calling-all-badge-enthusiasts-gather-for-seeeds-badge-sponsorship-2019/) discounts for badge makers. I applied for the 8% discount level which requires an honest review of my experiance, so here it is. 
 
 I actually tried to use two different fabs prior to seeed studio and they both told me that they couldn't do 3 colors on the board. To set some expectations, I'm also very inexperianced with board design. I can design a circuit and write the code, but like last time I had help with the board design files (this makes me more difficult to deal with). 
@@ -98,7 +98,7 @@ Final Score of Seeed 6/7
 +Communication was good, and they dealt with me asking for things like pictures
 +They were able to switch parts out very late in the process
 
-###Bill of Materials
+### Bill of Materials
 In case something snapped off of your board, or you want to populate a bare board.
 
 TBD
