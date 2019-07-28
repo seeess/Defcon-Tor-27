@@ -3,7 +3,7 @@
 ****
 [Here's a feature overview in video form](https://youtu.be/Rasb8VQQdyw)
 ****
-I wanted to make another badge, and Tor mentioned they will have a vendor booth this year. I took all the monetary risk, but these turned out pretty well. I'm giving these to Tor to sell as a fund raiser so hopefully I'll break even. This doesn't count the many hours planning, designing, coding, and crimping 500+ JST battery holders. I spent more time on the presentation this time (custom 3 color board, custom dye sub lanyards, custom boxes, sticker, etc).
+I wanted to make another badge, and Tor will have a vendor booth this year. I took all the monetary risk, but these turned out pretty well. I'm giving these to Tor to sell as a fund raiser so hopefully I'll break even. This doesn't count the many hours planning, designing, coding, flashing, and crimping 500+ JST battery holders. I spent more time on the presentation this time (custom 3 color board, custom dye sub lanyards, custom boxes, sticker, etc).
 
 ## In the box
 * Tor badge
@@ -16,7 +16,7 @@ I wanted to make another badge, and Tor mentioned they will have a vendor booth 
 ### Powering the Tor SAO
 This Tor board supports the new [1.69bis “shitty add-on”](https://hackaday.com/2019/03/20/introducing-the-shitty-add-on-v1-69bis-standard/) (SAO) standard, there is one 2x3 male pin header that you can connect to a main badge that supports the SAO standard for power. You can also power this board from older badges that use the 2x2 pin SAO standard. When using the older 2x2 standard verify the correct pins are connected. This board only utilizes the “3v3” and “gnd” pins of the SAO standard (other pins on the SAO header are not connected).
 
-Alternatively, if you don’t have a main badge to plug this Tor board into for power, a battery holder and two CR123a batteries are provided so you can power this Tor board independently. Just stick the battery holder to the back of the Tor board, this was not done for you because it would prevent you from using the SAO header. 
+Alternatively, if you don’t have a main badge to plug this Tor board into for power, a battery holder and two CR123a batteries are provided so you can power this Tor board independently. Just stick the battery holder to the back of the Tor board, this was not done for you because it would prevent you from using the SAO header. The red wire on the battery holder is the postive side, there isn't protection against reverse voltage so be careful. 
 
 **Do NOT** attempt to power the Tor board from both the provided battery and a “main” badge through the SAO header simultaneously. The green zip ties can be used as a "leash" while using this as a SAO (so it won't fall off and get lost). Alternatively you could trim them and use them artistically as green leaves on the top of the board. 
 
