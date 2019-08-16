@@ -103,4 +103,26 @@ For more information on Seeed Studio see https://www.seeedstudio.com/prototype-p
 ### Bill of Materials
 In case something snapped off of your board, or you want to populate a bare board.
 
-TBD
+| Part Description | Part Number | Example Link |
+| --- | --- | --- |
+| attiny 402 MCU | ATTINY402-SSNR | [link](https://www.mouser.com/ProductDetail/Microchip-Technology/ATTINY402-SSNR?qs=%2Fha2pyFaduh21XYPei99WR3JCXj6iTo%252Bcfgu3%2Fn8qXX5qNq28IpbLA%3D%3D) |
+| JST 2.0mm connector | S2B-PH-K-S(LF)(SN) | [link](https://www.digikey.com/product-detail/en/jst-sales-america-inc/S2B-PH-K-S-LF-SN/455-1719-ND/926626) |
+| Button | PTS 647 SN50 SMTR2 LFS | [link](https://www.digikey.com/product-detail/en/c-k/PTS-647-SN50-SMTR2-LFS/PTS647SN50SMTR2LFSCT-ND/9649866) |
+| Cap 0.1uF 0603 | C0603C104Z3VACTU | [link](https://www.mouser.com/ProductDetail/KEMET/C0603C104Z3VACTU?qs=sGAEpiMZZMs0AnBnWHyRQFqPnX0Olvco%252BYoiWDWTaEY%3D) |
+| Resistor 15ohm 250mw 0603 | ERJ-PA3J150V | [link](https://www.mouser.com/ProductDetail/Panasonic/ERJ-PA3J150V?qs=sGAEpiMZZMukHu%252BjC5l7YcAVbAdukxRIYVGoqC2%252Bq%2F0%3D) |
+| LED | L1SP-PRP2002800000 | [link](https://www.mouser.com/ProductDetail/Lumileds/L1SP-PRP2002800000?qs=%2Fha2pyFaduiW1qgclxjjzrnJHFvpNsBqk82fcR2oGYziUOlvP8YCZIQQaHojLBJE) |
+| 2x3 SAO shrouded-keyed header |  61200621621 | [link](https://www.digikey.com/product-detail/en/wurth-electronics-inc/61200621621/732-5394-ND/4846913) |
+
+Notes:
+
+Pin 1 for the MCU is on the bottom right. You can test this by toning-out vcc and ground pins on the chip footprint to the SAO header or JST connector that are marked.
+
+You will obviously need 5 LEDs and 5 resistors, all other parts you will just need one of each part.
+
+To program the chip I used a pickit4, you will need something that supports UPDI. I used pogo pins on the top 3 vias. You could solder a 3 pin header there if you want. 
+
+To import and compile you can use mplabx, select an attiny402, and select your pickit4 programmer, there shouldn't be a lot more to it than that. 
+
+The CR123 battery holders were from aliexpress and I don't think you can order just one, plus I manually crimped the connectors on them. But the connector is a standard JST 2.0mm PH connector. There are many battery options to power the board using this connector. You can buy cables on amazon and connect it to your own battery, you can order small lithium-ion battery packs and charge them up, or you can avoid this need and power it via the SAO header. 
+
+HOWEVER: I couldn't find a standard for which side the positive and negative were on for the JST connector (most of amazon had it one way, some of ebay and sparkfun had it another way). The board is marked so make sure you have the positive and negative connected correctly. It is very easy to reverse if you order a pre-made connector, just use a razorblade and lift the plastic tabs to pull out the wires. 
